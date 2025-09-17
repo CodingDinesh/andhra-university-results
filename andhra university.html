@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AU Degree Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            text-align: right;
+            padding: 15px 25px;
+            font-weight: bold;
+            font-size: 18px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .container {
+            background-color: white;
+            padding: 40px;
+            margin: 40px auto;
+            width: 60%;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .exam-info {
+            font-size: 20px;
+            margin-bottom: 30px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .input-section {
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            width: 60%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #004080;
+            color: white;
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #0059b3;
+        }
+
+        .au-image {
+            margin-top: 30px;
+        }
+
+        .placeholder-fields {
+            margin-top: 25px;
+            font-size: 18px;
+            color: #444;
+            text-align: left;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .placeholder-fields div {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        Andhra University
+    </div>
+
+    <div class="container">
+        <div class="exam-info">
+            2nd Semester (1-2) Regular Examinations Held in April 2025
+        </div>
+
+        <div class="input-section">
+            <label for="regno"><strong>Registration Number:</strong></label><br>
+            <input type="text" id="regno" name="regno" placeholder="Enter your Reg No"><br>
+            <button onclick="window.location.href='results.html'">Get Results</button>
+        </div>
+
+        <div class="au-image">
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/70/Andhra_University_Logo.png" alt="AU Logo" width="120">
+        </div>
+
+        <div class="placeholder-fields">
+            <div><strong>Reg No:</strong> ___________</div>
+            <div><strong>Name:</strong> ___________</div>
+            <div><strong>Semester:</strong> ___________</div>
+        </div>
+    </div>
+</body>
+</html>
